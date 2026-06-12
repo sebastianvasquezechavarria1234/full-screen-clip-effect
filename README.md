@@ -1,44 +1,31 @@
 # Fullscreen Clip-path Transitions ✨
 
-![Preview](img/preview.png)
+![Preview](img/preview.jpg)
 
-## 📖 Descripción del Proyecto
+## 📖 About
 
-Este proyecto es una colección de animaciones inspiradoras de recortes (`clip-path`) a pantalla completa. Demuestra cómo una imagen en pantalla completa puede transformarse y moverse fluidamente hacia una cuadrícula o fila de imágenes más pequeñas, alterando su forma en el proceso.
+A creative exploration of fullscreen **clip-path** animations. A fullscreen image smoothly transforms and morphs into a grid of smaller images, altering its shape along the way — creating a visually striking transition effect.
 
-Es un excelente punto de partida y de referencia para construir transiciones y efectos visuales atractivos en interfaces de usuario modernas.
+## 🚀 Tech Stack
 
-## 🚀 Tecnologías y Herramientas
+- **HTML5 & CSS3** — Structure and styling with `clip-path` and CSS Custom Properties.
+- **JavaScript (ES6+)** — Animation logic and control.
+- **GSAP** — High-performance animation engine for fluid, complex transitions.
+- **Splitting.js** — Character-level text animation.
+- **ImagesLoaded** — Ensures images are loaded before animations fire.
 
-El proyecto está construido utilizando tecnologías modernas de desarrollo web:
+## 🛠️ Getting Started
 
-- **HTML5 & CSS3:** Estructura y estilos, con un fuerte enfoque en `clip-path` y Variables CSS (`--var`).
-- **JavaScript (ES6+):** Lógica y control de las animaciones.
-- **GSAP (GreenSock Animation Platform):** Motor principal para animaciones complejas y fluidas.
-- **Splitting.js:** Para la división y animación de textos.
-- **ImagesLoaded:** Para asegurar que las imágenes se carguen antes de iniciar las animaciones.
+1. Clone this repository.
+2. No build tools or package managers needed — all libraries are loaded via CDN.
+3. Open `index.html` in a modern browser.
 
-## 📂 Estructura de Demos
+> **Tip:** Use a local server (e.g. Live Server in VS Code) to avoid CORS issues with ES modules.
 
-El proyecto incluye 4 variaciones principales (Demos) para explorar diferentes enfoques de la animación `clip-path`:
+## 💡 Notes
 
-- **Demo 1 (`index.html`):** Transición básica a cuadrícula.
-- **Demo 2 (`index2.html`):** Transición a fila con efectos adicionales.
-- **Demo 3 (`index3.html`):** Animación de forma fluida (La Casa).
-- **Demo 4 (`index4.html`):** Efecto de recorte alternativo y dinámico.
-
-## 🛠️ Instalación y Uso
-
-1. Clona este repositorio o descárgalo a tu máquina local.
-2. No se requiere instalación de dependencias complejas (como NPM/Yarn) ya que las librerías se cargan mediante CDN.
-3. Simplemente abre cualquiera de los archivos `index.html` (o index2, index3, index4) en un navegador web moderno.
-   > **Nota:** Se recomienda usar un servidor local (como Live Server en VSCode) para evitar problemas de políticas de CORS con módulos de JavaScript (ES modules).
-
-## 💡 Notas Adicionales
-
-- Asegúrate de utilizar un navegador moderno que soporte CSS Variables y la propiedad `clip-path`.
-- El archivo `favicon` se ha actualizado con el emoji ✨ utilizando un SVG Data URL en línea.
+- Requires a modern browser with support for CSS Variables and `clip-path`.
 
 ---
 
-*Proyecto basado en el artículo y tutoriales de Codrops.*
+✨ Created by **Sebastian Vasquez**
